@@ -1,0 +1,36 @@
+#app {
+  margin: auto;
+  width: 80%;
+  max-width: 960px;
+}
+
+#movie-collection-display {
+  background: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 64px auto;
+  padding: 32px;
+  min-height: 200px;
+  box-shadow: 0 0 12px 1px rgba(0,0,0,0.4);
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+li {
+  background: white;
+  margin: 16px auto;
+  padding: 12px;
+  height: max-content;
+  width: 27%;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0 0 12px 1px rgba(0,0,0,0.4);
+  list-style: none;
+  text-align: center;
+}
+
+.movie-title {
+  font-weight: bold;
+  font-size: 32px;
+}
